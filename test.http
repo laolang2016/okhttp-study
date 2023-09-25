@@ -1,0 +1,27 @@
+
+GET http://localhost:8090/product/category/list
+Content-Type: application/json
+
+### 
+PUT http://localhost:8090/product/category/add
+Content-Type: application/json
+
+{
+    "parentId": 0,
+    "name": "手机"
+}
+
+
+### 
+POST http://localhost:8090/product/category/edit
+Content-Type: application/json
+
+{
+    "id": 2,
+    "parentId": 0,
+    "name": "手机"
+}
+
+### 
+DELETE http://localhost:8090/product/category/del/2
+Content-Type: application/json
