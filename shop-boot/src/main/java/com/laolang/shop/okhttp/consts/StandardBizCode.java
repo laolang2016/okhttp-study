@@ -1,4 +1,4 @@
-package com.laolang.shop.common.consts;
+package com.laolang.shop.okhttp.consts;
 
 public enum StandardBizCode implements IBizCode {
 

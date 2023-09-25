@@ -1,7 +1,7 @@
-package com.laolang.shop.common.domain;
+package com.laolang.shop.okhttp.domain;
 
-import com.laolang.shop.common.consts.StandardBizCode;
-import com.laolang.shop.common.exception.BusinessException;
+import com.laolang.shop.okhttp.consts.StandardBizCode;
+import com.laolang.shop.okhttp.exception.BusinessException;
 import lombok.Data;
 import lombok.experimental.Accessors;
 

@@ -1,6 +1,6 @@
 package com.laolang.shop.modules.product.consts;
 
-import com.laolang.shop.common.consts.IBizCode;
+import com.laolang.shop.okhttp.consts.IBizCode;
 
 public enum ProductBizCode implements IBizCode {
     /**

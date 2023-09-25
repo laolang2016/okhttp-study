@@ -1,7 +1,7 @@
-package com.laolang.shop.common.exception;
+package com.laolang.shop.okhttp.exception;
 
-import com.laolang.shop.common.consts.IBizCode;
-import com.laolang.shop.common.consts.StandardBizCode;
+import com.laolang.shop.okhttp.consts.IBizCode;
+import com.laolang.shop.okhttp.consts.StandardBizCode;
 
 public class BusinessException extends RuntimeException {
 

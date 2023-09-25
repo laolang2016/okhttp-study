@@ -1,8 +1,10 @@
 
+### GET 请求
 GET http://localhost:8090/product/category/list
 Content-Type: application/json
 
-### 
+
+### PUT 请求
 PUT http://localhost:8090/product/category/add
 Content-Type: application/json
 
@@ -12,7 +14,7 @@ Content-Type: application/json
 }
 
 
-### 
+### POST 请求
 POST http://localhost:8090/product/category/edit
 Content-Type: application/json
 
@@ -22,6 +24,6 @@ Content-Type: application/json
     "name": "手机"
 }
 
-### 
+### DELETE 请求
 DELETE http://localhost:8090/product/category/del/2
 Content-Type: application/json

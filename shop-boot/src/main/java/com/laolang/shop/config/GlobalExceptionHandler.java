@@ -1,7 +1,7 @@
 package com.laolang.shop.config;
 
-import com.laolang.shop.common.domain.R;
-import com.laolang.shop.common.exception.BusinessException;
+import com.laolang.shop.okhttp.domain.R;
+import com.laolang.shop.okhttp.exception.BusinessException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.http.HttpStatus;

@@ -1,8 +1,8 @@
 package com.laolang.shop.modules.product.controller;
 
 import cn.hutool.json.JSONUtil;
-import com.laolang.shop.common.domain.R;
-import com.laolang.shop.common.exception.BusinessException;
+import com.laolang.shop.okhttp.domain.R;
+import com.laolang.shop.okhttp.exception.BusinessException;
 import com.laolang.shop.modules.product.consts.ProductBizCode;
 import com.laolang.shop.modules.product.req.CategoryAddReq;
 import com.laolang.shop.modules.product.req.CategoryEditReq;
